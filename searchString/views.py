@@ -14,12 +14,11 @@ def index(request):
 
 def checkdata(request):
     if Searchword.objects.all().count() == 0:
-        print("why still working")
-        print("get to work")
-        print(Searchword.objects.all().count())
+        # read the provided dataset file and store in database
         superfile = open(os.path.join(settings.PROJECT_ROOT, 'word_search.tsv'))
         s = superfile.readlines()
         for lines in s:
+            #elimination spaces between words and counts
             wordArray = lines.split('\t')
             secondWord = wordArray[1].split('\n')
             word = wordArray[0]
@@ -55,9 +54,11 @@ def getFormdata(request):
         for elements in supernewarr2:
             supernewarr1.append(elements)
         
-        print(supernewarr1)
-        
+        # cutting the result to 25 words
+        finalCutarray = supernewarr1[:25]
+        print(len(finalCutarray))
         #serializing the data in json format
-        data = serializers.serialize("json", supernewarr1)
+
+        data = serializers.serialize("json", finalCutarray)
 
     return HttpResponse(data)
