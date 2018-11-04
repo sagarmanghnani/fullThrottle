@@ -27,7 +27,7 @@ These steps are mentioned below
     Another reason for not showing any suggestions may be beacause the entries of the dataset is not inserted to the database. To insert the entries in the database
     please head to url http://127.0.0.1:8080/searchString/checkdata. This Url will run method which reads the dataset and stores it in database.
     c. Wait for few minutes as dataset entries are huge and will take time to enter in the database
-    d. After waiting for few minutes Please move to the client usl i.e `localhost:8000` and retry to put text in searchbar. Wait for few seconds Autocomplete suggestion will show up.
+    d. After waiting for few minutes Please move to the client usl i.e `localhost:8100` and retry to put text in searchbar. Wait for few seconds Autocomplete suggestion will show up.
     
 # Screenshots
 
