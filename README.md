@@ -28,3 +28,9 @@ These steps are mentioned below
     please head to url http://127.0.0.1:8080/searchString/checkdata. This Url will run method which reads the dataset and stores it in database.
     c. Wait for few minutes as dataset entries are huge and will take time to enter in the database
     d. After waiting for few minutes Please move to the client usl i.e `localhost:8000` and retry to put text in searchbar. Wait for few seconds Autocomplete suggestion will show up.
+    
+# Screenshots
+
+![pic1](https://user-images.githubusercontent.com/20658754/47961357-78d35280-e02f-11e8-8e17-b480bd1348a5.PNG)
+![pic2](https://user-images.githubusercontent.com/20658754/47961358-78d35280-e02f-11e8-8695-b3b14de09d59.PNG)
+![pic3](https://user-images.githubusercontent.com/20658754/47961359-78d35280-e02f-11e8-9954-4369e402c3d2.PNG)
