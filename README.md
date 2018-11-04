@@ -1,4 +1,5 @@
-# fullThrottle
+# fullThrottle(client-side URL: https://fullthrottle-3406a.firebaseapp.com/) 
+(Server-side URL: https://immense-forest-90921.herokuapp.com/searchString/getform?q=these)
 This repo contains the application build using the Django framework. Repo contains the functionality of autocomplete by suggesting the possible words that can be derived from user input. The results presented are limited to 25 queries only.
 
 # Pre-Requisite
